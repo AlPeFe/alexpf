@@ -1,6 +1,6 @@
 {
+  "homepage":"https://AlPeFe.github.io/alexpf",
   "name": "my-app",
-  "homepage": "https://alpefe.github.io/react-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
