@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import MeComponent from './components/Me/MeComponent'
+import NavigationComp from './components/nav/navigation';
 
 function App() {
   return (
+    <div>
+      <NavigationComp></NavigationComp>
     <div style={{
         backgroundColor: 'white'
-      }} className="main grid place-items-center h-screen">
-       <MeComponent></MeComponent>
+      }} className="flex h-screen justify-center items-center">      
+       <MeComponent class="m-auto"></MeComponent>
+    </div>
     </div>
   );
 }
