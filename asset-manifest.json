@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alexpf/static/css/main.4ca43f79.css",
+    "main.js": "/alexpf/static/js/main.a46f0224.js",
+    "static/js/787.28cb0dcd.chunk.js": "/alexpf/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/alexpf/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/alexpf/index.html",
+    "main.4ca43f79.css.map": "/alexpf/static/css/main.4ca43f79.css.map",
+    "main.a46f0224.js.map": "/alexpf/static/js/main.a46f0224.js.map",
+    "787.28cb0dcd.chunk.js.map": "/alexpf/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ca43f79.css",
+    "static/js/main.a46f0224.js"
+  ]
+}
