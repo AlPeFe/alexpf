@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import MeComponent from './components/Me/MeComponent'
 import NavigationComp from './components/nav/navigation';
+import FormContact from './components/FormContact/FormContact';
+import WorkComp from './components/Work/Work';
 
 function App() {
   return (
@@ -9,9 +11,10 @@ function App() {
       <NavigationComp></NavigationComp>
     <div style={{
         backgroundColor: 'white'
-      }} className="flex h-screen justify-center items-center">      
-       <MeComponent class="m-auto"></MeComponent>
-    </div>
+      }}>      
+       <MeComponent></MeComponent>
+ 
+    </div> 
     </div>
   );
 }
