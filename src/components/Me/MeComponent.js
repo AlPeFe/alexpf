@@ -1,44 +1,58 @@
-import React, { useState } from 'react';
-import SocialComponent from '../Social/Social';
+import React, { useState } from "react";
+import Bio from "../Biography/bio";
+import Love from "../LoveStuff/Love";
+import { FaGithub } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaRegEnvelope } from 'react-icons/fa';
 
-
-
-const MeComponent = () =>  {
+const MeComponent = () => {
   return (
-
-    <div>
-      <div class="grid grid-cols-3 space-y-8">
-      <div class="lg:col-start-2 lg:col-span-1 col-span-3 text-center">
-          <p class="text-5xl">Alex Pérez Ferreira</p>
-          <div> <p>.NET DEVELOPER | BARCELONA</p></div>
+    <div className="w-full">
+      <div className="flex flex-col justify-center max-w-xs mx-auto  p-5">
+        <div className="">
+        </div>
+        <div className="text-center mt-5">
+          <p className="text-xl text-5xl font-semibold text-gray-900">
+            Alex Perez
+          </p>
+          <p className="text-sm sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
+            .Net Developer | Barcelona
+          </p>
+          <div className="flex align-center justify-center mt-4">
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
+              href="https://github.com/backslashflutter"
+            >
+              <FaGithub />
+              <span class="sr-only">Github</span>
+            </a>
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300"
+              href="https://youtube.com/backslashflutter"
+            >
+              <FaYoutube />
+              <span class="sr-only">YouTube</span>
+            </a>
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
+              href="https://twitter.com/shivanshsinghh_"
+            >
+              <FaTwitter />
+              <span class="sr-only">Twitter</span>
+            </a>
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
+              href="https://mailto:backslash.flutter@gmail.com"
+            >
+              <FaRegEnvelope />
+              <span class="sr-only">Email</span>
+            </a>
+          </div>
+        </div>
       </div>
-     <div class="lg:col-start-2 lg:col-span-1 col-span-3 mx-8">
-     <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
-    <li class="mb-10 ml-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">1994</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Born in Barcelona</p>
-       
-    </li>
-    <li class="mb-10 ml-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-    </li>
-    <li class="ml-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-    </li>
-</ol>
-       
-     </div>
-      </div>
-
     </div>
   );
-}
+};
 
 export default MeComponent;
