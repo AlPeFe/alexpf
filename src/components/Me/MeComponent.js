@@ -40,7 +40,7 @@ const MeComponent = () => {
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
-              href="https://github.com/AlPeFe"
+              href="https://www.linkedin.com/in/alex-pérez-ferreira-a790b0236/"
             >
               <FaLinkedin />
               <span class="sr-only">Linkedin</span>

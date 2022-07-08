@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import About from "./components/About/About";
 import data from "./data/data";
 import Skills from "./components/Skills/Skills";
+import ModalInfo from "./components/Modal/Modal";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <MeComponent />
         <About></About>
         <Skills skills={data.skills}></Skills>
+        <ModalInfo></ModalInfo>
       </div>
       <div
         data-aos="fade-up"
